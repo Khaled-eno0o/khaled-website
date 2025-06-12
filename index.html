@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eno - متجر التسوق الإلكتروني الأفضل</title>
+    <meta name="description" content="Eno - منصة التسوق الإلكتروني الرائدة. تسوق أحدث المنتجات بأفضل الأسعار مع توصيل سريع وآمن.">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-content">
+                    <div class="header-top-contact">
+                        <a href="tel:+966500000000"><i class="fas fa-phone"></i> +966 50 000 0000</a>
+                        <a href="mailto:info@eno.com"><i class="fas fa-envelope"></i> info@eno.com</a>
+                    </div>
+                    <div class="header-top-links">
+                        <a href="#"><i class="fas fa-truck"></i> تتبع طلبك</a>
+                        <a href="#"><i class="fas fa-map-marker-alt"></i> مواقع المتاجر</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header-main">
+                <div class="logo">
+                    <a href="index.html">E<span>no</span></a>
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="ابحث عن منتجات...">
+                    <button><i class="fas fa-search"></i></button>
+                </div>
+                <div class="header-actions">
+                    <div class="action-item" id="account-btn">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="action-item" id="wishlist-btn">
+                        <i class="fas fa-heart"></i>
+                        <span class="badge">0</span>
+                    </div>
+                    <div class="action-item" id="cart-btn">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">0</span>
+                        <div class="cart-dropdown">
+                            <div class="cart-items">
+                                <div class="cart-item">
+                                    <div class="cart-item-image">
+                                        <img src="images/product-1.jpg" alt="منتج">
+                                    </div>
+                                    <div class="cart-item-info">
+                                        <h4 class="cart-item-title">سماعات بلوتوث لاسلكية</h4>
+                                        <div class="cart-item-price">199 ريال</div>
+                                        <div class="cart-item-quantity">الكمية: 1</div>
+                                    </div>
+                                    <div class="cart-item-remove">
+                                        <i class="fas fa-times"></i>
+                                    </div>
+                                </div>
+                                <div class="cart-item">
+                                    <div class="cart-item-image">
+                                        <img src="images/product-2.jpg" alt="منتج">
+                                    </div>
+                                    <div class="cart-item-info">
+                                        <h4 class="cart-item-title">ساعة ذكية متطورة</h4>
+                                        <div class="cart-item-price">349 ريال</div>
+                                        <div class="cart-item-quantity">الكمية: 1</div>
+                                    </div>
+                                    <div class="cart-item-remove">
+                                        <i class="fas fa-times"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="cart-total">
+                                <span>المجموع:</span>
+                                <span>548 ريال</span>
+                            </div>
+                            <div class="cart-buttons">
+                                <a href="#" class="btn btn-outline">عرض السلة</a>
+                                <a href="#" class="btn btn-primary">الدفع</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="nav">
+            <div class="container">
+                <div class="mobile-menu-toggle" id="mobile-menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <ul class="nav-menu" id="nav-menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">التصنيفات</a>
+                        <ul class="dropdown">
+                            <li><a href="#" class="dropdown-link">الإلكترونيات</a></li>
+                            <li><a href="#" class="dropdown-link">الأزياء</a></li>
+                            <li><a href="#" class="dropdown-link">المنزل والمطبخ</a></li>
+                            <li><a href="#" class="dropdown-link">الجمال والعناية الشخصية</a></li>
+                            <li><a href="#" class="dropdown-link">الرياضة واللياقة</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">العروض</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">الماركات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">تواصل معنا</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">تسوق بثقة مع Eno</h1>
+                <p class="hero-text">اكتشف تشكيلة واسعة من المنتجات عالية الجودة بأسعار تنافسية. استمتع بتجربة تسوق سلسة وآمنة مع توصيل سريع لجميع أنحاء المملكة.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn btn-secondary">تسوق الآن</a>
+                    <a href="#" class="btn btn-outline">اكتشف المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section categories">
+        <div class="container">
+            <div class="section-title">
+                <h2>تسوق حسب الفئة</h2>
+            </div>
+            <div class="category-grid">
+                <a href="#" class="category-card">
+                    <img src="images/category-1.jpg" alt="الإلكترونيات">
+                    <div class="category-overlay">
+                        <h3 class="category-name">الإلكترونيات</h3>
+                    </div>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="images/category-2.jpg" alt="الأزياء">
+                    <div class="category-overlay">
+                        <h3 class="category-name">الأزياء</h3>
+                    </div>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="images/category-3.jpg" alt="المنزل والمطبخ">
+                    <div class="category-overlay">
+                        <h3 class="category-name">المنزل والمطبخ</h3>
+                    </div>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="images/category-4.jpg" alt="الجمال والعناية">
+                    <div class="category-overlay">
+                        <h3 class="category-name">الجمال والعناية</h3>
+                    </div>
+                </a>
+                <a href="#" class="category-card">
+                    <img src="images/category-5.jpg" alt="الرياضة واللياقة">
+                    <div class="category-overlay">
+                        <h3 class="category-name">الرياضة واللياقة</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="section featured-products">
+        <div class="container">
+            <div class="section-title">
+                <h2>منتجات مميزة</h2>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-1.jpg" alt="سماعات بلوتوث لاسلكية">
+                        <div class="product-badge">جديد</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">الإلكترونيات</div>
+                        <h3 class="product-title">سماعات بلوتوث لاسلكية</h3>
+                        <div class="product-price">
+                            <div class="current-price">199 ريال</div>
+                            <div class="old-price">249 ريال</div>
+                        </div>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="rating-count">(45)</div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary add-to-cart">أضف للسلة</a>
+                            <a href="#" class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-2.jpg" alt="ساعة ذكية متطورة">
+                        <div class="product-badge">خصم 20%</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">الإلكترونيات</div>
+                        <h3 class="product-title">ساعة ذكية متطورة</h3>
+                        <div class="product-price">
+                            <div class="current-price">349 ريال</div>
+                            <div class="old-price">429 ريال</div>
+                        </div>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="rating-count">(78)</div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary add-to-cart">أضف للسلة</a>
+                            <a href="#" class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-3.jpg" alt="حقيبة ظهر عصرية">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">الأزياء</div>
+                        <h3 class="product-title">حقيبة ظهر عصرية</h3>
+                        <div class="product-price">
+                            <div class="current-price">129 ريال</div>
+                        </div>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-count">(32)</div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary add-to-cart">أضف للسلة</a>
+                            <a href="#" class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-4.jpg" alt="مكبر صوت بلوتوث محمول">
+                        <div class="product-badge">الأكثر مبيعاً</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">الإلكترونيات</div>
+                        <h3 class="product-title">مكبر صوت بلوتوث محمول</h3>
+                        <div class="product-price">
+                            <div class="current-price">179 ريال</div>
+                            <div class="old-price">219 ريال</div>
+                        </div>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="rating-count">(124)</div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary add-to-cart">أضف للسلة</a>
+                            <a href="#" class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner Section -->
+    <section class="banner">
+        <div class="container">
+            <div class="banner-content">
+                <div class="banner-text">
+                    <h2 class="banner-title">خصومات حصرية تصل إلى 50%</h2>
+                    <p class="banner-description">استمتع بخصومات هائلة على تشكيلة واسعة من المنتجات. عروض محدودة لفترة محدودة، سارع بالتسوق الآن!</p>
+                    <a href="#" class="btn btn-secondary">تسوق الآن</a>
+                </div>
+                <div class="banner-image">
+                    <img src="images/banner.png" alt="عروض خاصة">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Selling Products Section -->
+    <section class="section best-selling">
+        <div class="container">
+            <div class="section-title">
+                <h2>الأكثر مبيعاً</h2>
+            </div>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-5.jpg" alt="حذاء رياضي">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">الأحذية</div>
+                        <h3 class="product-title">حذاء رياضي مريح</h3>
+                        <div class="product-price">
+                            <div class="current-price">259 ريال</div>
+                            <div class="old-price">299 ريال</div>
+                        </div>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="rating-count">(215)</div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary add-to-cart">أضف للسلة</a>
+                            <a href="#" class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-6.jpg" alt="طقم أواني طهي">
+                        <div class="product-badge">خصم 15%</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">المنزل والمطبخ</div>
+                        <h3 class="product-title">طقم أواني طهي ستانلس ستيل</h3>
+                        <div class="product-price">
+                            <div class="current-price">399 ريال</div>
+                            <div class="old-price">469 ريال</div>
+                        </div>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="rating-count">(87)</div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary add-to-cart">أضف للسلة</a>
+                            <a href="#" class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-7.jpg" alt="كاميرا رقمية">
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">الإلكترونيات</div>
+                        <h3 class="product-title">كاميرا رقمية احترافية</h3>
+                        <div class="product-price">
+                            <div class="current-price">1299 ريال</div>
+                            <div class="old-price">1499 ريال</div>
+                        </div>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                            <div class="rating-count">(56)</div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary add-to-cart">أضف للسلة</a>
+                            <a href="#" class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="images/product-8.jpg" alt="عطر فاخر">
+                        <div class="product-badge">حصري</div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-category">العطور</div>
+                        <h3 class="product-title">عطر فاخر للرجال</h3>
+                        <div class="product-price">
+                            <div class="current-price">459 ريال</div>
+                        </div>
+                        <div class="product-rating">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="rating-count">(142)</div>
+                        </div>
+                        <div class="product-actions">
+                            <a href="#" class="btn btn-primary add-to-cart">أضف للسلة</a>
+                            <a href="#" class="wishlist-btn">
+                                <i class="far fa-heart"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials">
+        <div class="container">
+            <div class="section-title">
+                <h2>آراء عملائنا</h2>
+            </div>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>تجربة تسوق رائعة مع Eno! المنتجات ذات جودة عالية والتوصيل كان سريعاً جداً. سأعود للتسوق مرة أخرى بالتأكيد.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/user-1.jpg" alt="عميل">
+                        </div>
+                        <div class="author-info">
+                            <h4>أحمد محمد</h4>
+                            <p>الرياض</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>أسعار تنافسية وخدمة عملاء ممتازة. أنصح الجميع بالتسوق من Eno، فهم يهتمون حقاً برضا العملاء.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/user-2.jpg" alt="عميل">
+                        </div>
+                        <div class="author-info">
+                            <h4>سارة عبدالله</h4>
+                            <p>جدة</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <p>تشكيلة واسعة من المنتجات وواجهة سهلة الاستخدام. أصبح Eno وجهتي الأولى للتسوق الإلكتروني.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-image">
+                            <img src="images/user-3.jpg" alt="عميل">
+                        </div>
+                        <div class="author-info">
+                            <h4>خالد العمري</h4>
+                            <p>الدمام</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <div class="container">
+            <h2 class="newsletter-title">اشترك في نشرتنا الإخبارية</h2>
+            <p class="newsletter-description">احصل على آخر العروض والتخفيضات مباشرة إلى بريدك الإلكتروني.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="أدخل بريدك الإلكتروني" required>
+                <button type="submit">اشترك الآن</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Eno</h3>
+                    <p>منصة التسوق الإلكتروني الرائدة في المملكة العربية السعودية. نقدم تشكيلة واسعة من المنتجات عالية الجودة بأسعار تنافسية.</p>
+                    <div class="footer-social">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>روابط سريعة</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">الصفحة الرئيسية</a></li>
+                        <li><a href="#">المنتجات</a></li>
+                        <li><a href="#">العروض الخاصة</a></li>
+                        <li><a href="#">من نحن</a></li>
+                        <li><a href="#">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>خدمة العملاء</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">حسابي</a></li>
+                        <li><a href="#">تتبع الطلب</a></li>
+                        <li><a href="#">سياسة الشحن</a></li>
+                        <li><a href="#">سياسة الإرجاع</a></li>
+                        <li><a href="#">الأسئلة الشائعة</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>تواصل معنا</h3>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i> شارع الملك فهد، الرياض، المملكة العربية السعودية</li>
+                        <li><i class="fas fa-phone"></i> +966 50 000 0000</li>
+                        <li><i class="fas fa-envelope"></i> info@eno.com</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Eno. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">تسجيل الدخول</h3>
+                <span class="modal-close" id="login-modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="login-email" class="form-label">البريد الإلكتروني</label>
+                        <input type="email" id="login-email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login-password" class="form-label">كلمة المرور</label>
+                        <input type="password" id="login-password" class="form-control" required>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="remember-me" class="form-check-input">
+                        <label for="remember-me" class="form-check-label">تذكرني</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">تسجيل الدخول</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <p>ليس لديك حساب؟ <a href="#" id="register-link">إنشاء حساب جديد</a></p>
+                <p><a href="#">نسيت كلمة المرور؟</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Register Modal -->
+    <div class="modal" id="register-modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">إنشاء حساب جديد</h3>
+                <span class="modal-close" id="register-modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <form id="register-form">
+                    <div class="form-group">
+                        <label for="register-name" class="form-label">الاسم الكامل</label>
+                        <input type="text" id="register-name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-email" class="form-label">البريد الإلكتروني</label>
+                        <input type="email" id="register-email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-phone" class="form-label">رقم الجوال</label>
+                        <input type="tel" id="register-phone" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-password" class="form-label">كلمة المرور</label>
+                        <input type="password" id="register-password" class="form-control" required>
+                        <small class="form-text">يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل وتتضمن أحرف كبيرة وصغيرة وأرقام.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="register-confirm-password" class="form-label">تأكيد كلمة المرور</label>
+                        <input type="password" id="register-confirm-password" class="form-control" required>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" id="terms" class="form-check-input" required>
+                        <label for="terms" class="form-check-label">أوافق على <a href="#">الشروط والأحكام</a> و <a href="#">سياسة الخصوصية</a></label>
+                    </div>
+                    <button type="submit" class="btn btn-primary" style="width: 100%;">إنشاء حساب</button>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <p>لديك حساب بالفعل؟ <a href="#" id="login-link">تسجيل الدخول</a></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+</body>
+</html>
